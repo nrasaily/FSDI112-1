@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} {% endblock title %}
+
+{% block content %} 
+<h1>About</h1>
+<P>Welcome to my page!</P>
+
+<p>As a new and evolving developer, I am stepping into one of the most dynamic 
+    and rewarding fields of the modern age. Each day presents an opportunity to grow—whether 
+    it’s writing cleaner code, understanding frameworks like Flask and Django, or solving
+     real-world problems with logic and creativity. I’m not just learning programming languages;
+      I’m developing the mindset of a problem solver. Every challenge I face—whether a stubborn bug or
+       a confusing error message—is shaping me into a more capable and confident developer.
+</p>
+<p>This journey is more than just technical skills; it’s about perseverance, curiosity, 
+    and a hunger to improve. I ask questions, explore different solutions, and seek to understand the
+     deeper mechanics behind the tools I use. I may still be at the beginning, but I’m building the 
+     foundation for a future where I can innovate, collaborate, and contribute meaningfully to the tech world.
+     Line by line, project by project—I am becoming the developer I aspire to be.
+</p>
+
+<img src="{% static 'img/about.png' %}" style="max-width: 30%">
+{% endblock content %}
